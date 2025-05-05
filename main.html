@@ -12,16 +12,19 @@
 <div>
     <div class="navbar bg-base-100 shadow-sm w-7xl h-10 bg-gray-100 m-2 py-4 ">
 
-        <div class="flex-1">
-            
-           
-          <button class="btn btn-ghost text-xl ">Dev <span class="text-3xl font-bold">Board</span></button>
-        <div>  <img class="w-5" src="assets/logo.png" alt=""></div>
+      <div class="flex-1">
+     
+        
       
-        </div>
+       
+      <button class="btn btn-ghost text-xl ">Dev <span class="text-3xl font-bold">Board</span></button>
+      <img class="w-5" src="assets/logo.png" alt="">
+  
+
+    </div>
         <div class="flex gap-12 m-5 ">
          <div class="flex-1">
-            <button ><h1 class="text-3xl font-bold bg-slate-50 rounded-sm">23</h1>
+            <button ><h1 class="text-3xl font-bold bg-slate-50 rounded-sm" id="done-task">23</h1>
             </button>
          </div>
           <div class="dropdown dropdown-end">
@@ -37,106 +40,133 @@
         </div>
       </div>
 </div>
+
 <section class="grid grid-cols-[3fr_1fr]">
 
- <div class="grid grid-cols-3 ">
-
+  <div>
+    <div class="grid grid-cols-[1fr_2fr_1fr]">
+      <div class="bg-slate-300 m-3 p-5">
+        <h1>Task assigned </h1>
+        <h1 id="total-task">06</h1>
+      </div>
+      <div class="bg-blue-500 m-3 p-5">
+        <div class="flex ">
+          <div>
+            <img src="assets/board.png" alt="">
+          </div>
+          <div><h1>Discover something</h1>
+            <h1>new today!</h1></div>
+        </div>
+      </div>
+      <div class="bg-slate-300 m-3 p-5">
+        <h1>wed </h1>
+        <h1>jun 28,25</h1>
+      </div>
+    </div>
+   
+   <div class="grid grid-cols-3 ">
   
-  <div class="card card-border bg-slate-200 m-4">
-    <div class="card-body">
-      <button class="btn  justify-start w-30">shopEase</button>
-      <h2 class="card-title">Fix mobile button</h2>
-      <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div class="card-actions flex justify-between ">
-     <div>
-      <h2>deadline</h2>
-      <h1 class=" font-bold">21 march 2025</h1>
-     </div>
-     <button class="btn btn-primary rounded">complete</button>
+    <div class="card card-border bg-slate-200 m-4">
+      <div class="card-body">
+        <button class="btn  justify-start w-30">shopEase</button>
+        <h2 class="card-title">Fix mobile button</h2>
+        <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions flex justify-between ">
+       <div>
+        <h2>deadline</h2>
+        <h1 class=" font-bold">21 march 2025</h1>
+       </div>
+       <button class="btn btn-primary rounded" id="btn-1">complete</button>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card card-border bg-slate-200 m-4">
-    <div class="card-body">
-      <button class="btn  justify-start w-30">shopEase</button>
-      <h2 class="card-title">Fix mobile button</h2>
-      <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div class="card-actions flex justify-between ">
-     <div>
-      <h2>deadline</h2>
-      <h1 class=" font-bold">21 march 2025</h1>
-     </div>
-     <button class="btn btn-primary rounded">complete</button>
+    <div class="card card-border bg-slate-200 m-4">
+      <div class="card-body">
+        <button class="btn  justify-start w-30">shopEase</button>
+        <h2 class="card-title">Fix mobile button</h2>
+        <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions flex justify-between ">
+       <div>
+        <h2>deadline</h2>
+        <h1 class=" font-bold">21 march 2025</h1>
+       </div>
+       <button class="btn btn-primary rounded"  id="btn-2">complete</button>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card card-border bg-slate-200 m-4">
-    <div class="card-body">
-      <button class="btn  justify-start w-30">shopEase</button>
-      <h2 class="card-title">Fix mobile button</h2>
-      <p class="opacity-50" >A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div class="card-actions flex justify-between ">
-     <div>
-      <h2>deadline</h2>
-      <h1 class=" font-bold">21 march 2025</h1>
-     </div>
-     <button class="btn btn-primary rounded">complete</button>
+    <div class="card card-border bg-slate-200 m-4">
+      <div class="card-body">
+        <button class="btn  justify-start w-30">shopEase</button>
+        <h2 class="card-title">Fix mobile button</h2>
+        <p class="opacity-50" >A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions flex justify-between ">
+       <div>
+        <h2>deadline</h2>
+        <h1 class=" font-bold">21 march 2025</h1>
+       </div>
+       <button class="btn btn-primary rounded" id="btn-3">complete</button>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card card-border bg-slate-200 m-4">
-    <div class="card-body">
-      <button class="btn  justify-start w-30">shopEase</button>
-      <h2 class="card-title">Fix mobile button</h2>
-      <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div class="card-actions flex justify-between ">
-     <div>
-      <h2>deadline</h2>
-      <h1 class=" font-bold">21 march 2025</h1>
-     </div>
-     <button class="btn btn-primary rounded">complete</button>
+    <div class="card card-border bg-slate-200 m-4">
+      <div class="card-body">
+        <button class="btn  justify-start w-30">shopEase</button>
+        <h2 class="card-title">Fix mobile button</h2>
+        <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions flex justify-between ">
+       <div>
+        <h2>deadline</h2>
+        <h1 class=" font-bold">21 march 2025</h1>
+       </div>
+       <button class="btn btn-primary rounded" id="btn-4">complete</button>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card card-border bg-slate-200 m-5">
-    <div class="card-body">
-      <button class="btn  justify-start w-30">shopEase</button>
-      <h2 class="card-title">Fix mobile button</h2>
-      <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div class="card-actions flex justify-between ">
-     <div>
-      <h2>deadline</h2>
-      <h1 class="font-bold">21 march 2025</h1>
-     </div>
-     <button class="btn btn-primary rounded">complete</button>
+    <div class="card card-border bg-slate-200 m-5">
+      <div class="card-body">
+        <button class="btn  justify-start w-30">shopEase</button>
+        <h2 class="card-title">Fix mobile button</h2>
+        <p class="opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions flex justify-between ">
+       <div>
+        <h2>deadline</h2>
+        <h1 class="font-bold">21 march 2025</h1>
+       </div>
+       <button class="btn btn-primary rounded" id="btn-5">complete</button>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card card-border bg-slate-200 m-6">
-    <div class="card-body">
-      <button class="btn  justify-start w-30">shopEase</button>
-      <h2 class="card-title ">Fix mobile button</h2>
-      <p class=" opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
-      <div class="card-actions flex justify-between ">
-     <div>
-      <h2>deadline</h2>
-      <h1 class=" font-bold">21 march 2025</h1>
-     </div>
-     <button class="btn btn-primary rounded">complete</button>
+    <div class="card card-border bg-slate-200 m-6">
+      <div class="card-body">
+        <button class="btn  justify-start w-30">shopEase</button>
+        <h2 class="card-title ">Fix mobile button</h2>
+        <p class=" opacity-50">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions flex justify-between ">
+       <div>
+        <h2>deadline</h2>
+        <h1 class=" font-bold">21 march 2025</h1>
+       </div>
+       <button class="btn btn-primary rounded" id="btn-6">complete</button>
+        </div>
       </div>
     </div>
+   </div>
+  </div
+  >
+  <div class="m-6 bg-slate-200 py-4 px-4" id="activity-log">
+    <h1>Activity log</h1>
+    <button id="clear-btn" class="btn">Clear history</button>
+   
+  
+    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, tempora.</p>
+    <p class="m-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, neque.</p>
   </div>
- 
- 
- </div>
- <div class="m-6 bg-slate-200 py-4 px-4 ">
-   <!-- div for 1fr -->
-  <h1>Activty log</h1>
-  <button class="btn">clear history</button>
- <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, tempora.</p>
-  <p class="m-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, neque.</p>
-    </div>
+  
+
+
+
 </section>
     </section>
+    <script src="script/btn.js"></script>
 </body>
 </html>
